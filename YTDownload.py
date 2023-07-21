@@ -18,6 +18,7 @@ print("Length of video: ", yt.length, "seconds")
 print("Downloading.....")
 
 yd = yt.streams.get_highest_resolution()
-yd.download('Downloads')
+yd.download('VideoDownloads') 
+
 
 print("Download completed!!")
